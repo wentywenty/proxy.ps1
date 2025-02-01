@@ -1,15 +1,30 @@
 # proxy.ps1
 
-
 快速代理管理工具,支持 Git、Scoop 和系统环境代理设置。
 
-## 一键运行
+## ⚡ 快速开始
+
+> 只需一行命令即可运行:
+
+```powershell
+irm https://proxyps1.short.gy/ | iex
+```
+
+## 详细使用方法
 
 选择你喜欢的环境直接运行:
 
 ### PowerShell
 ```powershell
 irm https://raw.githubusercontent.com/wentywenty/proxy.ps1/main/proxy.ps1 | iex
+```
+
+```
+irm https://raw.gitmirror.com/wentywenty/proxy.ps1/main/proxy.ps1 | iex
+```
+
+```
+irm https://proxyps1.short.gy/ | iex
 ```
 
 ### Bash/Zsh
